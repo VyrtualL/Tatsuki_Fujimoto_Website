@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Punch</title>
+    <link rel="shortcut icon" href="togata.jpg">
+    <link rel="stylesheet" href="style_fp.css">
+</head>
+
+<body>
+    <section class="showcase">
+
+        <header>
+            <h2 class="logo"><img src="Fire_Punch_logo.png" alt=""></h2>
+            <div class="toggle"></div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Manga</a></li>
+                <li><a href="#">Histoire</a></li>
+                <li><a href="#">Personnages</a></li>
+                <li><a href="#">Autre</a></li>
+            </ul>
+        </nav>
+
+        <video src="fire_punch.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+
+    </section>
+
+    <ul class="social">
+        <li>
+            <a href="https://twitter.com/__EklipS" target="_blank"><img src="twitter.png" alt=""></a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/chainsawmang/" target="_blank"><img src="instagram.png" alt=""></a>
+        </li>
+    </ul>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Tatsuki Fujimoto</a></li>
+            <li><a href="/Users/matisbraun/Desktop/html%20csm/firepunch.html">Fire Punch</a></li>
+            <li><a href="/Users/matisbraun/Desktop/html%20csm/chainsawman.html">Chainsaw Man</a></li>
+            <li><a href="#">Look Back</a></li>
+            <li><a href="#">Other</a></li>
+            <li><a href="#">Languages FR/ANG</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+
+</html>
